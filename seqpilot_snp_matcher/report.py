@@ -255,7 +255,7 @@ def main():
         grouped_samples.append(group)
 
     template = get_template()
-    tex_file_name = os.path.abspath("{}.tex".format(args.output))
+    tex_file_name = os.path.abspath("{0}.tex".format(args.output))
 
     with open(tex_file_name, 'w') as tex_file:
         tex_file.write(template.render(snps=snps, samples=samples, grouped_samples=grouped_samples, mismatches=mismatches))

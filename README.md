@@ -22,5 +22,5 @@ individual samples to each other, counting mismatches.
 
 ## Requirements
 
-- Python 2.7
+- Python 2.6+
 - Jinja 2
